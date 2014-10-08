@@ -17,9 +17,12 @@ html {
   line-height: 1.4;
 }
 
+.top, .top2{ color: white; 
+} 
 /* type hierarchy- change for your project */
 h1 {
   font-size: 3em; /* 48px */
+  color: green; 
 }
 
 h2 {
@@ -40,7 +43,7 @@ h4 {
 ========================================== */
 
 header{
-  background-color: #cccccc; /* grey */
+  background-color: green; /* grey */
   
   
 }
@@ -52,20 +55,25 @@ footer{
 }
 
 .content-wrapper{
-  background-color:#fafa00; /* yellow */
+  background-color:white; /* yellow */
+    width: 80%;
+    margin: 0 auto; 
   
   
 }
 
 .article{
-  background-color: #f0be86; /* kind of orange */
-  
+  background-color: white; /* kind of orange */
+  float: left;
+  width: 60%; 
   
 }
 
 .sidebar{
-  background-color: #ffaecf; /* kind of pink */
-  
+  background-color: #cccccc; /* kind of pink */
+  float: left;
+  width: 40%; 
+
   
 }
 
